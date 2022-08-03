@@ -1,0 +1,34 @@
+#search{
+    color: rgb(7, 209, 209);
+    background-color: aliceblue;
+    border-radius: 30px;
+    border-color: rgb(7, 209, 209);
+    width: 70px;
+    margin: 10px;
+}
+#plus{
+    background-color: aquamarine;
+    color: aliceblue;
+    border-radius: 100%;
+    margin: 10px;
+    font-size: 17px;
+    border: 0;
+}
+
+#createAccount{
+    border: 1px solid;
+    padding: 2px;
+    box-shadow: 10px 5px;
+    background-color: blue;
+    margin: 2px;
+}
+p{
+    color: white;
+}
+
+#example2{
+        border: 1px solid;
+        padding: 10px;
+        box-shadow: 5px 10px #888888;
+        margin: 10px;
+}

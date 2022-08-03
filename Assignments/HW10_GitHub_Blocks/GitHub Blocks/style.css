@@ -1,0 +1,28 @@
+h1{
+    text-align: center;
+    width: 600;
+}
+.pics1{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 1500px;
+    height: 250px;
+    margin: 10px;
+    padding: 10px;
+}
+.pics{
+    width: 200px;
+}
+.color1{
+    background-color: lightblue;
+}
+.color2{
+    background-color: pink;
+}
+.color3{
+    background-color: white;
+}
+p{
+    text-align: center;
+}
