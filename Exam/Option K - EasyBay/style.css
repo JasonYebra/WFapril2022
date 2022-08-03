@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:cursive;
+}
+
+.parentContainer{
+    margin: 0 auto;
+    max-width: 950px;
+    min-width: 950px;
+    padding: 10px 0px ;
+}
+/* ----------------Header properties-------------- */
+.seachHeader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logoContainer{
+    display: flex;
+    align-items: center;
+}
+#logo{
+    background-color: #00d1b2;
+    border-radius: 10px;
+    width: 50px;
+    margin-right: 20px;
+}
+.searchBarContainer{
+    display: flex;
+    align-items: center;
+}
+#searchBar{
+    width: 500px;
+    height: 30px;
+    border-right: none;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+.searchBarContainer>img{
+    width: 15px;
+    padding: 5.5px;
+    border: 2px solid black;
+    border-left: none;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+#cart{
+    width: 35px;
+    cursor: pointer;
+}
+
+
+/* -------------------------------catigories Option----------------------------*/
+.categoriesOption{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+    padding: 7px 0px;
+    border-bottom: 5px solid black;
+}
+
+/* -------------------Main body-------------------------------- */
+.mainBodyContainer{
+    margin-top: 5px;
+}
+.mainBodyContainer>h1{
+    text-align: center;
+    padding: 3px;
+    margin-bottom: 15px;
+}
+.upperBox{
+    display: flex;
+    justify-content: space-between;
+}
+.lMainBox{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 10px;
+}
+.discover{
+    background-color:#00d1b2;
+    width: 250px;
+    height: 250px;
+    display: flex;
+    padding: 30px 20px;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    font-size: 30px;
+    text-align: center;
+    color: white;
+}
+.rMainBox{
+    margin: 0px 10px;
+}
+#changingSrc{
+    width: 290px;
+    height: 310px;
+}
+.aloe{
+    width: 353px;
+}
+.soothingAloe{
+    background-color: #00d1b2;
+    margin-top: 15px;
+    padding: 14.5px 0px;
+    height: 26px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+
+/* ------------------Bottom Container--------------- */
+.cactusTypesImgs{
+    padding: 25px;
+    background-color: #aae8d8;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.cactus{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.cactus>img{
+    width: 130px;
+    margin-bottom: 20px;
+    border-radius: 50%;
+}
+
+/* ------------------------------Warning Box--------------- */
+.warning{
+    border: 2px solid black;
+    background-color: white;
+    width: 905px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    bottom: 50px;
+}
+.Iaccept{
+    background-color: #00d1b2;
+    color: white;
+    padding: 10px;
+    width: 115px;
+    box-shadow: 2px 2px black;
+}
+
+.shadow{
+    box-shadow: 5px 5px black;
+    position: relative;
+    bottom: 5px;
+    cursor: pointer;
+}
